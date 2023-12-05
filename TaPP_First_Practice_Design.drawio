@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T12:13:21.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bTwQs7_6CPIcXBT8AmI4" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T12:14:15.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FOBuX_X8x2EtccsWaZ-n" version="22.1.5" type="github">
   <diagram name="Страница — 1" id="qih0HeVdHAn_B9oH8GBS">
     <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="880.5" y="240" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z6ik7qYl1S37W0Bwtu2p-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Builders&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=40;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="1120" height="320" as="geometry" />
+          <mxGeometry x="240" y="400" width="1120" height="400" as="geometry" />
         </mxCell>
         <mxCell id="z6ik7qYl1S37W0Bwtu2p-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;IPeriodBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetBeginDate(date: DateTime): IPeriodBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetEndDate(date: DateTime): IPeriodBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Reset(): IPeriodBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Build(): Period&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="380" y="440" width="200" height="160" as="geometry" />
