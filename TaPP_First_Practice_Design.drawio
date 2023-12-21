@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T18:22:31.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="85F0Jbo_PV7WLIcCFAIF" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T18:22:47.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3eLhj0b6-SvfICO04Ge7" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="qih0HeVdHAn_B9oH8GBS">
-    <mxGraphModel dx="1185" dy="1432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="1722" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -238,6 +238,24 @@
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MySqlResultDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllResults(): List&amp;lt;Result&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteResult(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateResult(result: Result)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddResult(result: Result)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetResultById(id: int): Result&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetResultsByWorkerId(workerId: int): List&amp;lt;Result&amp;gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ MySqlResultDao(connectionProvider: MySqlConnectionProvider)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1331.75" y="-610" width="216.5" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="xKmKN3CruhW7F5drKo0u-48" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-44" target="xKmKN3CruhW7F5drKo0u-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="-416" as="sourcePoint" />
+            <mxPoint x="730" y="-347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKmKN3CruhW7F5drKo0u-49" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-45" target="xKmKN3CruhW7F5drKo0u-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="971" y="-416" as="sourcePoint" />
+            <mxPoint x="971" y="-347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKmKN3CruhW7F5drKo0u-50" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-47" target="xKmKN3CruhW7F5drKo0u-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1210" y="-416" as="sourcePoint" />
+            <mxPoint x="1210" y="-347" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
