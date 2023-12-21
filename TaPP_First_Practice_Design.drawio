@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T18:22:47.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3eLhj0b6-SvfICO04Ge7" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T18:23:47.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Ms0qNcjBVN4ming4fvCt" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="qih0HeVdHAn_B9oH8GBS">
-    <mxGraphModel dx="1728" dy="1722" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1906" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,45 +79,11 @@
         <mxCell id="xKmKN3CruhW7F5drKo0u-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;DefaultWorkerBuilder&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultName: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultSurname: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultPatronymic: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _worker: Worker&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DefaultWorkerBuilder(defaultId: itn, defaultName: string, defaultSurname: string, defaultPatronymic: string)&lt;br&gt;+ SetId(id: int): IWorkerBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetFirstName(firstName: string): IWorkerBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetSurname(surname: string): IWorkerBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetPatronymic(patronymic: string): IWorkerBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Reset(): IWorkerBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Build(): Worker&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="840" y="670" width="240" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="xKmKN3CruhW7F5drKo0u-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-4" target="z6ik7qYl1S37W0Bwtu2p-7">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="630" as="sourcePoint" />
-            <mxPoint x="610" y="630" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xKmKN3CruhW7F5drKo0u-9" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-5" target="z6ik7qYl1S37W0Bwtu2p-8">
-          <mxGeometry x="-0.2" width="160" relative="1" as="geometry">
-            <mxPoint x="717.9" y="671.08" as="sourcePoint" />
-            <mxPoint x="722.1" y="620.0000000000001" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xKmKN3CruhW7F5drKo0u-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-7" target="z6ik7qYl1S37W0Bwtu2p-10">
-          <mxGeometry x="-0.2" width="160" relative="1" as="geometry">
-            <mxPoint x="730" y="680" as="sourcePoint" />
-            <mxPoint x="730" y="630" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DefaultObjectiveBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _description: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _objective: Objective&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DefaultObjectiveBuilder(defaultId: int, name: string, description: string)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetId(id: int): IObjectiveBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetName(name: string): IObjectiveBuilder&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetDescription(description: string): IObjectiveBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Reset(): IObjectiveBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Build(): Objective&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1100" y="670" width="200" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="xKmKN3CruhW7F5drKo0u-12" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-11" target="z6ik7qYl1S37W0Bwtu2p-11">
-          <mxGeometry x="-0.2" width="160" relative="1" as="geometry">
-            <mxPoint x="971" y="680" as="sourcePoint" />
-            <mxPoint x="971" y="630" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DefaultResultBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultWorkerId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultPeriodId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultObjectiveId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- &amp;lt;&amp;lt;ReadOnly&amp;gt;&amp;gt; _defaultCompletion: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _result: Result&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DefaultResultBuilder(defaultId: int, defaultWorkerId: int, defaultPeriodId: int, defaultObjectiveId: int, defaultCopletion: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetId(id: int): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetWorkerId(id: int): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetPeriodId(id: int): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetObjectiveId(id: int): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetCompletion(completion: float): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Reset(): IObjectiveBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Build(): Objective&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1320" y="670" width="240" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="xKmKN3CruhW7F5drKo0u-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-13" target="xKmKN3CruhW7F5drKo0u-2">
-          <mxGeometry x="-0.2" width="160" relative="1" as="geometry">
-            <mxPoint x="1210" y="680" as="sourcePoint" />
-            <mxPoint x="1210" y="610" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPeriodDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllPeriods(): List&amp;lt;Period&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePeriod(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePeriod(period: Period)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddPeriod(period: Period)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPeriodById(id: int): Period&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPeriodByDates(beginDate: DateTime, endDate: DateTime): Period&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="385" y="-357" width="190" height="170" as="geometry" />
@@ -255,6 +221,36 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1210" y="-416" as="sourcePoint" />
             <mxPoint x="1210" y="-347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKmKN3CruhW7F5drKo0u-53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-4" target="z6ik7qYl1S37W0Bwtu2p-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="351" y="246" as="sourcePoint" />
+            <mxPoint x="351" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKmKN3CruhW7F5drKo0u-54" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-5" target="z6ik7qYl1S37W0Bwtu2p-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="680" as="sourcePoint" />
+            <mxPoint x="490" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKmKN3CruhW7F5drKo0u-55" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-7" target="z6ik7qYl1S37W0Bwtu2p-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="680" as="sourcePoint" />
+            <mxPoint x="730" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKmKN3CruhW7F5drKo0u-56" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-11" target="z6ik7qYl1S37W0Bwtu2p-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="970" y="680" as="sourcePoint" />
+            <mxPoint x="971" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xKmKN3CruhW7F5drKo0u-57" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-13" target="xKmKN3CruhW7F5drKo0u-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1210" y="680" as="sourcePoint" />
+            <mxPoint x="1210" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
