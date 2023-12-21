@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T18:28:14.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IXQU8zj0rfzTbf6yYN74" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T18:29:05.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QH4fHYi4DJ1l5BgsxKTX" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="qih0HeVdHAn_B9oH8GBS">
-    <mxGraphModel dx="2074" dy="2275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3457" dy="3012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="z6ik7qYl1S37W0Bwtu2p-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Entities&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=40;" parent="1" vertex="1">
-          <mxGeometry x="31" y="-110" width="1569" height="380" as="geometry" />
+          <mxGeometry x="31" y="-10" width="1569" height="380" as="geometry" />
         </mxCell>
         <mxCell id="z6ik7qYl1S37W0Bwtu2p-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Period&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BeginDate: DateTime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ EndDate: DateTime&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Period(id: int, beginDate: DateTime, endDate: DateTime)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Virtual&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="400" y="77" width="160" height="153" as="geometry" />
+          <mxGeometry x="400" y="177" width="160" height="153" as="geometry" />
         </mxCell>
         <mxCell id="z6ik7qYl1S37W0Bwtu2p-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Position&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Rank: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Salary: decimal&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Position(id: int, name: string, rank: int, salary: decimal)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Virtual&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="640" y="56" width="160" height="174" as="geometry" />
+          <mxGeometry x="640" y="156" width="160" height="174" as="geometry" />
         </mxCell>
         <mxCell id="z6ik7qYl1S37W0Bwtu2p-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Objective&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Description: string&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Objective(id: int, name: string, description: string)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Virtual&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="89" width="160" height="141" as="geometry" />
+          <mxGeometry x="1120" y="189" width="160" height="141" as="geometry" />
         </mxCell>
         <mxCell id="z6ik7qYl1S37W0Bwtu2p-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Worker&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PositionId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ FirstName: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Surname: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Patronymic: string&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Worker(id: int, position: int, firstName: string, surname: string, patronymic: string)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Virtual&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="880.5" y="49" width="160" height="181" as="geometry" />
+          <mxGeometry x="880.5" y="149" width="160" height="181" as="geometry" />
         </mxCell>
         <mxCell id="z6ik7qYl1S37W0Bwtu2p-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Builders&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=40;" parent="1" vertex="1">
           <mxGeometry x="29" y="400" width="1571" height="640" as="geometry" />
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Result&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ WorkerId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ PeriodId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ObjectiveId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Completion: float&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Result(id: int,workerId: int, periodId: int, objectiveId: int, completion: float)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Virtual&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="47" width="160" height="183" as="geometry" />
+          <mxGeometry x="1360" y="147" width="160" height="183" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IResultBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetId(id: int): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetWorkerId(id: int): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetPeriodId(id: int): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetObjectiveId(id: int): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SetCompletion(completion: float): IResultBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Reset(): IObjectiveBuilder&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Build(): Objective&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1335" y="440" width="210" height="180" as="geometry" />
@@ -86,61 +86,61 @@
           <mxGeometry x="1320" y="670" width="240" height="300" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPeriodDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllPeriods(): List&amp;lt;Period&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePeriod(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePeriod(period: Period)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddPeriod(period: Period)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPeriodById(id: int): Period&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPeriodByDates(beginDate: DateTime, endDate: DateTime): Period&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="385" y="-357" width="190" height="170" as="geometry" />
+          <mxGeometry x="385" y="-227" width="190" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPositionDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllPositions(): List&amp;lt;Position&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePosition(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePosition(position: Position)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddPosition(position: Position)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPositionById(id:int): Position&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPositionByRankAndName(name: string, rank: int): Position&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="611.75" y="-357" width="216.5" height="170" as="geometry" />
+          <mxGeometry x="611.75" y="-227" width="216.5" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NullPeriod&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Period()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Override&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="277" y="-48" width="137" height="80" as="geometry" />
+          <mxGeometry x="277" y="52" width="137" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-19" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-18" target="z6ik7qYl1S37W0Bwtu2p-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="320" y="89" as="sourcePoint" />
-            <mxPoint x="480" y="89" as="targetPoint" />
+            <mxPoint x="320" y="189" as="sourcePoint" />
+            <mxPoint x="480" y="189" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NullPosition&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Position()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Override&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="531" y="-48" width="137" height="80" as="geometry" />
+          <mxGeometry x="531" y="52" width="137" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-20" target="z6ik7qYl1S37W0Bwtu2p-3">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="355" y="55" as="sourcePoint" />
-            <mxPoint x="410" y="164" as="targetPoint" />
+            <mxPoint x="355" y="155" as="sourcePoint" />
+            <mxPoint x="410" y="264" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NullWorker&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Worker()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Override&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="771" y="-48" width="137" height="80" as="geometry" />
+          <mxGeometry x="771" y="52" width="137" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-22" target="z6ik7qYl1S37W0Bwtu2p-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="610" y="42" as="sourcePoint" />
-            <mxPoint x="650" y="153" as="targetPoint" />
+            <mxPoint x="610" y="142" as="sourcePoint" />
+            <mxPoint x="650" y="253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NullObjective&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Objective()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Override&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1018" y="-48" width="137" height="80" as="geometry" />
+          <mxGeometry x="1018" y="52" width="137" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-25" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-24" target="z6ik7qYl1S37W0Bwtu2p-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="850" y="42" as="sourcePoint" />
-            <mxPoint x="891" y="150" as="targetPoint" />
+            <mxPoint x="850" y="142" as="sourcePoint" />
+            <mxPoint x="891" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;NullObjective&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Result()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;&amp;lt;Override&amp;gt;&amp;gt; IsNull(): bool&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1234" y="-48" width="137" height="80" as="geometry" />
+          <mxGeometry x="1234" y="52" width="137" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-27" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-26" target="xKmKN3CruhW7F5drKo0u-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1097" y="42" as="sourcePoint" />
-            <mxPoint x="1130" y="170" as="targetPoint" />
+            <mxPoint x="1097" y="142" as="sourcePoint" />
+            <mxPoint x="1130" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IWorkerDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllWorkers(): List&amp;lt;Worker&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteWorker(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateWorker(worker: Worker)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddWorker(worker: Worker)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetWorkerById(id: int): Worker&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetWorkerByFullname(name: string, surname: string, patronymic: string): Worker&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="852.25" y="-357" width="216.5" height="170" as="geometry" />
+          <mxGeometry x="852.25" y="-227" width="216.5" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IObjectiveDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllObjectives(): List&amp;lt;Objective&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteObjective(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateObjective(objective: Objective)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddObjective(objective: Objective)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetObjetiveById(id: int): Objective&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetObjectivesByName(name: string): List&amp;lt;Objective&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1091.75" y="-357" width="216.5" height="170" as="geometry" />
+          <mxGeometry x="1091.75" y="-227" width="216.5" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-15" target="z6ik7qYl1S37W0Bwtu2p-2">
           <mxGeometry relative="1" as="geometry">
@@ -167,7 +167,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IResultDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllResults(): List&amp;lt;Result&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteResult(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateResult(result: Result)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddResult(result: Result)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetResultById(id: int): Result&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetResultsByWorkerId(workerId: int): List&amp;lt;Result&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1331.75" y="-357" width="216.5" height="170" as="geometry" />
+          <mxGeometry x="1331.75" y="-227" width="216.5" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-36" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-34" target="xKmKN3CruhW7F5drKo0u-1">
           <mxGeometry relative="1" as="geometry">
@@ -179,48 +179,48 @@
           <mxGeometry x="1800" y="-561" width="228" height="166" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MySqlPeriodDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllPeriods(): List&amp;lt;Period&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePeriod(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePeriod(period: Period)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddPeriod(period: Period)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPeriodById(id: int): Period&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPeriodByDates(beginDate: DateTime, endDate: DateTime): Period&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ MySqlPeriodDao(connectionProvider: MySqlConnectionProivder)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="369.5" y="-606" width="221" height="180" as="geometry" />
+          <mxGeometry x="369.5" y="-476" width="221" height="180" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-40" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MySqlPositionDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllPositions(): List&amp;lt;Position&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePosition(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePosition(position: Position)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddPosition(position: Position)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPositionById(id:int): Position&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPositionByRankAndName(name: string, rank: int): Position&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ MySqlPositionDao(connectionProivder: MySqlConnectionProvider)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="604.25" y="-617" width="231.5" height="191" as="geometry" />
+          <mxGeometry x="604.25" y="-487" width="231.5" height="191" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-42" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-38" target="xKmKN3CruhW7F5drKo0u-15">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="582" y="-395" as="sourcePoint" />
-            <mxPoint x="742" y="-395" as="targetPoint" />
+            <mxPoint x="582" y="-265" as="sourcePoint" />
+            <mxPoint x="742" y="-265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-40" target="xKmKN3CruhW7F5drKo0u-16">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="490" y="-416" as="sourcePoint" />
-            <mxPoint x="490" y="-347" as="targetPoint" />
+            <mxPoint x="490" y="-286" as="sourcePoint" />
+            <mxPoint x="490" y="-217" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-44" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MySqlWorkerDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllWorkers(): List&amp;lt;Worker&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteWorker(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateWorker(worker: Worker)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddWorker(worker: Worker)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetWorkerById(id: int): Worker&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetWorkerByFullname(name: string, surname: string, patronymic: string): Worker&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ MySqlWorkerDao(connectionProvider: MySqlConnectionProvider)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="845" y="-620" width="231" height="194" as="geometry" />
+          <mxGeometry x="845" y="-490" width="231" height="194" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MySqlObjectiveDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllObjectives(): List&amp;lt;Objective&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteObjective(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateObjective(objective: Objective)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddObjective(objective: Objective)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetObjetiveById(id: int): Objective&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetObjectivesByName(name: string): List&amp;lt;Objective&amp;gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ MySqlObjectiveDao(connectionProvider: MySqlConnectionProvider)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1084.5" y="-616" width="231" height="190" as="geometry" />
+          <mxGeometry x="1084.5" y="-486" width="231" height="190" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MySqlResultDao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllResults(): List&amp;lt;Result&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeleteResult(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateResult(result: Result)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddResult(result: Result)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetResultById(id: int): Result&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetResultsByWorkerId(workerId: int): List&amp;lt;Result&amp;gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ MySqlResultDao(connectionProvider: MySqlConnectionProvider)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1331.75" y="-610" width="216.5" height="184" as="geometry" />
+          <mxGeometry x="1331.75" y="-480" width="216.5" height="184" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-48" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-44" target="xKmKN3CruhW7F5drKo0u-28">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="730" y="-416" as="sourcePoint" />
-            <mxPoint x="730" y="-347" as="targetPoint" />
+            <mxPoint x="730" y="-286" as="sourcePoint" />
+            <mxPoint x="730" y="-217" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-49" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-45" target="xKmKN3CruhW7F5drKo0u-29">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="971" y="-416" as="sourcePoint" />
-            <mxPoint x="971" y="-347" as="targetPoint" />
+            <mxPoint x="971" y="-286" as="sourcePoint" />
+            <mxPoint x="971" y="-217" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-50" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-47" target="xKmKN3CruhW7F5drKo0u-34">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1210" y="-416" as="sourcePoint" />
-            <mxPoint x="1210" y="-347" as="targetPoint" />
+            <mxPoint x="1210" y="-286" as="sourcePoint" />
+            <mxPoint x="1210" y="-217" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="xKmKN3CruhW7F5drKo0u-4" target="z6ik7qYl1S37W0Bwtu2p-7">
@@ -257,10 +257,10 @@
           <mxGeometry x="1800" y="-365" width="226" height="113" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-62" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPeriodDaoCreator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllPeriods(): List&amp;lt;Period&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ DeletePeriod(id: int)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdatePeriod(period: Period)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddPeriod(period: Period)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPeriodById(id: int): Period&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetPeriodByDates(beginDate: DateTime, endDate: DateTime): Period&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1772" y="-152" width="190" height="170" as="geometry" />
+          <mxGeometry x="1750" y="-100" width="190" height="170" as="geometry" />
         </mxCell>
         <mxCell id="xKmKN3CruhW7F5drKo0u-63" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;DAO&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=40;" vertex="1" parent="1">
-          <mxGeometry x="34" y="-680" width="1569" height="520" as="geometry" />
+          <mxGeometry x="34" y="-550" width="1569" height="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
